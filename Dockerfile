@@ -1,4 +1,7 @@
 FROM liuchong/rustup:nightly-musl
+
+# Update version
+
 WORKDIR /src/
 RUN apt-get update && \
     apt-get install git -y && \
